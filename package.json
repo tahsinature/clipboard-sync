@@ -1,6 +1,6 @@
 {
   "version": "1.0.109",
-  "name": "bun-bakery-app",
+  "name": "clip-sync",
   "dependencies": {
     "@kapsonfire/bun-bakery": "^0.3.2"
   }
