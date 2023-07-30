@@ -2,6 +2,9 @@
   "version": "1.0.109",
   "name": "clip-sync",
   "dependencies": {
-    "@kapsonfire/bun-bakery": "^0.3.2"
+    "hono": "^3.3.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
   }
 }
