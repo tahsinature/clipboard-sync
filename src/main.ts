@@ -6,7 +6,7 @@ let clipboard = null;
 
 const app = new Hono();
 app.use("*", logger());
-app.use("*", serveStatic({ root: "/assets" }));
+app.use("*", serveStatic({ root: "/src/assets" }));
 
 app.post("/api/clipboard", async (c) => {
   const body = await c.req.json<{
